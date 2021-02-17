@@ -1,0 +1,26 @@
+
+div{
+    overflow-x:auto;
+}
+th{
+    font-size: xx-large;
+}
+table{
+    width: 80%;
+    overflow-x:auto;     
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr{
+    padding-top: 50px;
+}
+td{
+    width: 50%;
+}
+img{
+    width:50%;
+}
+p{
+    text-align: justify;
+}
