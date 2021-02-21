@@ -1,0 +1,39 @@
+.CircularProgressbar-path{
+    stroke: rgb(13, 94, 138);
+}
+.CircularProgressbar-trail{
+    stroke: #d6d6d6;
+}
+.percentagecommen{
+    color: #d6d6d6;
+    font-size:large;
+}
+h3{
+    color: rgb(13, 94, 138);
+    font-size:large;
+}
+.charContainer{    
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #d6d6d6;
+    padding: 0px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.info{
+    color:gray;
+}
+
+.firstItem{
+    color:blue;
+}
+
+.secondItem{
+    color:gray;
+}
+.footerChart{
+    color: black;
+    padding-bottom: 10%;
+    padding-top: 30%;
+}

@@ -4,7 +4,7 @@ import CircleChart from "./CircleChart";
 import "./GaugeDataChar.css";
 import Grid from "@material-ui/core/Grid";
 import Info from '@material-ui/icons/Info';
-import Stop from "@material-ui/icons/Stop"
+import Stop from "@material-ui/icons/Stop";
 
 class GaugeDataChart extends Component {
     render() {
