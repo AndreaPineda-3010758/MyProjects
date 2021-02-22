@@ -1,0 +1,110 @@
+import React, { Component } from "react";
+import * as d3 from "d3";
+import "./AreaChart.css";
+
+class AreaChart extends Component {
+    state={data1:[{
+        date:"",
+        sample:0,
+        score:0,
+        vsly:0
+     }]};
+
+componentDidUpdate(prevProps){
+    if (prevProps.dataChart !== this.props.dataChart) {
+        this.setState({data1:this.props.dataChart});
+        this.drawAreaChart();
+        console.log("Updated");
+    }
+}
+  drawAreaChart() {
+    console.log("Updated2");   
+    const data = [
+        {
+           date:"Apr",
+           sample:21,
+           score:75,
+           vsly:0
+        },
+        {
+           date:"May",
+           sample:110,
+           score:71,
+           vsly:0
+        },
+        {
+           date:"Jun",
+           sample:2,
+           score:62,
+           vsly:0
+        },
+        {
+           date:"Jul",
+           sample:0,
+           score:0,
+           vsly:0
+        }
+     ];
+    console.log(data);
+    console.log(this.state.data1);
+    const margin = { top: 20, right: 20, bottom: 30, left: 50 },
+      width = 575 - margin.left - margin.right,
+      height = 350 - margin.top - margin.bottom;
+
+      const x = d3.scaleLinear()
+      .domain([
+        0,
+        d3.max(this.state.data1, function (d) {
+          return d.sample;
+        }),
+      ])
+      .range([0, width]);
+    const y = d3.scaleLinear()
+      .domain([
+        0,
+        d3.max(this.state.data1, function (d) {
+          return d.score;
+        }),
+      ])
+      .range([height, 0]);
+
+      var xAxis = d3.axisBottom(x).tickFormat(function(d){ return d.x;});
+      var yAxis = d3.axisLeft(y);
+
+    const area = d3.area()
+      .x(function (d) {
+        return x(d.sample);
+      })
+      .y0(height)
+      .y1(function (d) {
+        return y(d.score);
+      });
+
+    const svg = d3
+      .select("#areaChart")
+      .append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    svg.append("path").datum(this.state.data1).attr("class", "area").attr("d", area);
+
+    svg
+      .append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+    svg.append("g").attr("class", "y axis").call(yAxis);
+  }
+  componentDidMount() {
+    this.setState({data1:this.props.dataChart});
+    this.drawAreaChart();
+  }
+  render() {
+    return <div></div>;
+  }
+}
+
+export default AreaChart;

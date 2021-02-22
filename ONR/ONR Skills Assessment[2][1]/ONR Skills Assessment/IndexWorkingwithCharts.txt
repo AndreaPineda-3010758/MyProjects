@@ -15,25 +15,25 @@ class App extends Component {
     score:0,
     vsly:0
  }],
-test:1};
+test:null};
 
   setAreaDataName=(event)=>{
     const nameButton=event.currentTarget.id;
-    const areaData="areaData";  
-    const valuesAreaChart=data[0][areaData][nameButton];    
-    this.setState((prevState, props) => ({
-      test: prevState.test + 1
-  }));
-  this.setState((prevState, props) => ({
-    areaDataObject:valuesAreaChart
-}));
+    console.log(event.currentTarget.id);
+    let valuesAreaChart;
+    const areaData="areaData";    
+    valuesAreaChart=data[0][areaData][nameButton];    
+    this.setState({areaDataObject:valuesAreaChart}); 
+    this.setState({test:"Hi"}) ;
+    console.log(valuesAreaChart);
   }
   render() {    
     const circlecharts = data.map((object) =>
       object.gaugeData.map((card, index) => {
         return (          
           <Grid item xs={4} key={index}>            
-            <div className="componentContainer">            
+            <div className="componentContainer">
+            <p>{this.state.areaDataObject[0].date}</p>
               <button className="charContainer" id={card.name} onClick={this.setAreaDataName}>
                   <h3>{card.name}</h3>
                   <span id={"chartN" + index} className="circularStyle"></span>
@@ -72,8 +72,7 @@ test:1};
               </Grid>
               <Grid item xs={6}>                
                 <div id="areaChart">
-                <p>{this.state.test}</p>
-                  <p>{this.state.areaDataObject[0].score}</p>
+                  <p>{this.state.areaDataObject[0].date}</p>
                   <AreaChart dataChart={this.state.areaDataObject}/>
                 </div>
               </Grid>
