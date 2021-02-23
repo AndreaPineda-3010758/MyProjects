@@ -4,4 +4,9 @@
   shape-rendering: crispEdges;
 }
 
-.area { fill: #4ca3bd; }
+.xaxis path {     
+    stroke:#CCCCCC;
+}
+
+  
+.pointChart{ fill: rgb(13, 94, 138); }
