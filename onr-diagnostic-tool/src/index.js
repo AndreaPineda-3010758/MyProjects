@@ -106,7 +106,7 @@ buttonClicked:""};
               <Grid item xs={6}> 
                 <div className="areaSection">
                 <div className="headerAreaCSection">
-                    <p>QUALITY SCORE TREND</p>
+                    <p>{this.state.buttonClicked} TREND</p>
                     <div className="buttonsAreaSec">
                       <button className="dayButton">Day</button>
                       <button className="weekButton">Week</button>

@@ -127,6 +127,7 @@ h3{
 }
 .headerAreaCSection p{
     font-size:x-large;
+    text-transform: uppercase;
 }
 .buttonsAreaSec{
     display: inline-block;
