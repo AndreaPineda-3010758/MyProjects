@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import data from "./json-data/data.json";
 import Grid from "@material-ui/core/Grid";
-import Info from "@material-ui/icons/Info";
-import Stop from "@material-ui/icons/Stop";
 import CircularChart from "./components/CircularChart";
 import AreaChart from "./components/AreaChart";
 import "./index.css";
