@@ -17,17 +17,29 @@ class Navigation extends Component {
     ];
     const navLinks = sections.map((section) => {
       return (
-        <a href={"#" + section} key={section}>{section}</a>        
+        <li key={section}><a className="navItems" href={"#" + section} key={section}>{section}</a></li>        
       );
     });
+
+    const dropDownMenu=()=>{
+      let getNavElements=document.getElementById("navElements");
+      if (getNavElements.className==="navGroup") {
+        getNavElements.className +=" responsive";
+      } else {
+        getNavElements.className ="navGroup";
+      }
+    }
     
     return (  
-        <div class="nav">
+        <nav>
+          <div className="navTop">
           <h1>ANDREA PINEDA</h1>
-          <div>
+          <button className="menuIcon" onClick={dropDownMenu}><MenuIcon/></button>
+          <ul className="navGroup" id="navElements">
             {navLinks}
-          </div>
+          </ul>
         </div>
+        </nav>
     );
   }
 }

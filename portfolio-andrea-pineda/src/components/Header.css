@@ -1,8 +1,9 @@
 .captions {
-    padding-bottom:40vh;    
+    padding-bottom:60vh;    
 }
 .carousel-caption {
     top: 1;
     bottom: auto; 
     font-size: 70px;
+    color:black;
 }

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Slide1 from "../img/softwareDeveloperBkg.jpg";
-import Slide2 from "../img/technologybackground.jpg";
+import Slide1 from "../img/developerBackground.jpg";
+import Slide2 from "../img/techBackground.jpg";
 import './Header.css';
 
 class Header extends Component{
@@ -21,7 +21,7 @@ class Header extends Component{
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100 custom-img" style={{height: '90vh'}} src={Slide2} alt="TechnologyBackground"/>
-                        <Carousel.Caption style={{paddingBottom:'40vh'}}>
+                        <Carousel.Caption style={{paddingBottom:'40vh', color:'black'}}>
                             <h3>Hello, I am</h3>
                             <h2>Andrea Pineda</h2>
                             <h3>A passionate Software Developer!</h3>
