@@ -8,7 +8,7 @@ class Header extends Component{
     render(){
         return(
             <div>
-                <Carousel interval={2500} indicators pause={false}>
+                <Carousel interval={4000} indicators pause={false}>
                     <Carousel.Item>
                         <img className="d-block w-100 custom-img" style={{height: '90vh'}} src={Slide1} alt="SoftwareBackground"/>
                         <Carousel.Caption className="carousel-caption">
