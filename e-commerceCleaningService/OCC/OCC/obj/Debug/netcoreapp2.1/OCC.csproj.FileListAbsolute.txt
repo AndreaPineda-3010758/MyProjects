@@ -1,0 +1,98 @@
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\appsettings.production.json
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\libman.json
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.deps.json
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.runtimeconfig.json
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.runtimeconfig.dev.json
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.dll
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.pdb
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.Views.dll
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.Views.pdb
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.RazorAssemblyInfo.cache
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.RazorAssemblyInfo.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.AssemblyInfoInputs.cache
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.AssemblyInfo.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.TagHelpers.input.cache
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.TagHelpers.output.cache
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.RazorCoreGenerate.cache
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Account\Edit.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Admin\DisplayCleanerList.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Edit.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\CheckOut.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\CustomerInfo.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\NoCleanerAvailable.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\SelectingCleaner.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\ServiceDetail.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Cleaner\CleanerCheckOut.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Cleaner\CleanerDetail.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Cleaner\RegisteredCleanerDetails.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Emergency\CheckOut.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Emergency\CustomerInfo.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Emergency\NoCleanerAvailable.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Emergency\ServiceDetail.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Users\Create.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Users\Edit.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.RazorTargetAssemblyInfo.cache
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.RazorTargetAssemblyInfo.cs
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.Views.pdb
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.dll
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.pdb
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.csproj.CopyComplete
+C:\Users\jorge\Downloads\OCC_Complete\OCC_Complete\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.csprojAssemblyReference.cache
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\appsettings.production.json
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\libman.json
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.deps.json
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.runtimeconfig.json
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.runtimeconfig.dev.json
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.dll
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.pdb
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.Views.dll
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\bin\Debug\netcoreapp2.1\OCC.Views.pdb
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.csprojAssemblyReference.cache
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.AssemblyInfoInputs.cache
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.AssemblyInfo.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.csproj.CoreCompileInputs.cache
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.RazorAssemblyInfo.cache
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.RazorAssemblyInfo.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.TagHelpers.input.cache
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.TagHelpers.output.cache
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.RazorCoreGenerate.cache
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Account\Edit.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Admin\DisplayCleanerList.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Edit.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\CheckOut.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\CustomerInfo.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\NoCleanerAvailable.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\SelectingCleaner.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Booking\ServiceDetail.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Cleaner\CleanerCheckOut.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Cleaner\CleanerDetail.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Cleaner\RegisteredCleanerDetails.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Emergency\CheckOut.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Emergency\CustomerInfo.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Emergency\NoCleanerAvailable.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Emergency\ServiceDetail.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Users\Create.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Users\Edit.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\Users\Index.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.RazorTargetAssemblyInfo.cache
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.RazorTargetAssemblyInfo.cs
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.Views.pdb
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.dll
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.pdb
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.genruntimeconfig.cache
+D:\Centennial Collegue\Fourth Semester\Software Development Project I\Project\Final\OCC (4)\OCC\OCC\obj\Debug\netcoreapp2.1\OCC.csproj.CopyComplete
