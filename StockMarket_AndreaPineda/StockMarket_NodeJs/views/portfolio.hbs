@@ -1,0 +1,24 @@
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header">
+            Welcome to Your Portfolio
+        </div>
+        <div class="card-body">
+            <table>
+                <tr>
+                    <th>Company Id</th>
+                    <th>User Id</th>
+                </tr>
+                {{#each shareItems}}
+                    <tr>
+                        <td>{{this.share_company_id}}</td>
+                        <td>{{this.user_id}}</td>                        
+                    </tr>
+                    {{/each}}
+            </table>
+        </div>
+    </div>
+    {{#if message}}
+    <h4 class="alert alert-danger mt-4">{{message}}</h4>
+    {{/if}}
+</div>

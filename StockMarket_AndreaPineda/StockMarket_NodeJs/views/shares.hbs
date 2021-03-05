@@ -1,0 +1,63 @@
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header">
+            <table class="balance">
+                <tr>
+                    <td><strong>Balance:{{balance}} CAD</strong> </td>
+                    <td>
+                        <form action="/share_actions/balance" method="POST">
+                            <input type="hidden" id="user_id" name="user_id" value={{user.user_id}}>
+                            <div class="mb-3">
+                                <label for="addMoney" class="form-label" type=number>$ </label>
+                                <input type="text" id="addMoney" name="addMoney">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add Balance</button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="card-body">
+            {{#if message}}
+            <h4 class="alert alert-danger mt-4">{{message}}</h4>
+            {{/if}}
+            <table class="table">
+                <thead class="table-primary">
+                    <tr>
+                        <th class="sharesTable" colspan="5" style="text-align: center">Shares Companies Availables</th>
+                    </tr>
+                    <tr>
+                        <th>Company Name</th>
+                        <th colspan="2">Sell Share Price</th>
+                        <th colspan="2">Buy Share Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    {{#each share_companies}}
+                    <tr>
+                        <td>{{this.company_name}}</td>
+                        <td>{{this.sell_price}}</td>
+                        <td>
+                            <form action="/share_actions/sellShare" method="POST">
+                                <input type="hidden" id="share_company_id" name="share_company_id" value={{this.share_company_id}}>
+                                <input type="hidden" id="user_id" name="user_id" value={{../user_id}}>                                
+                                <button type="submit" class="btn btn-primary">Sell</button>
+                            </form>
+                        </td>
+                        <td>{{this.buy_price}}</td>
+                        <td>
+                            <form action="/share_actions/buyShare" method="POST">
+                                <input type="hidden" id="share_company_id" name="share_company_id" value={{this.share_company_id}}>                                
+                                <input type="hidden" id="user_id" name="user_id" value={{../user_id}}>                                
+                                <button type="submit" class="btn btn-primary">Buy</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
