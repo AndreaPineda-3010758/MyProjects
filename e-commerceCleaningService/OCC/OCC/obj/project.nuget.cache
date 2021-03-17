@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VVSeADcTGDgAQiwP2VFbfqCRjqMVbBcmDqYY0/R3/ssXHB79IWIjVxoR+6sxuwgSOWZ6R78of4ljYfufiun3rg==",
+  "dgSpecHash": "SDnPbka+jXxsikmLaKhmuCju2HELMr8H0POJlHNQZYW3ujRatGZQKrsAHdo5ZMMFQ2P+Q7oB5b6iZiNDFvvoOw==",
   "success": true,
-  "projectFilePath": "D:\\Centennial Collegue\\Fourth Semester\\Software Development Project I\\Project\\Final\\OCC (4)\\OCC\\OCC\\OCC.csproj",
+  "projectFilePath": "D:\\MyProjects\\MyProjects\\e-commerceCleaningService\\OCC\\OCC\\OCC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

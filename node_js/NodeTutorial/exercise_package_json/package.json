@@ -1,0 +1,16 @@
+{
+  "name": "exercise_package_json",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrea",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"//major.minor.patch
+                        //^:4.x.x
+                        //~4.17.x
+  }
+}

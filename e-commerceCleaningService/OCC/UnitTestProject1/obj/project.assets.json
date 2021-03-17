@@ -10837,11 +10837,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Centennial Collegue\\Fourth Semester\\Software Development Project I\\Project\\Final\\OCC (4)\\OCC\\UnitTestProject1\\UnitTestProject1.csproj",
+      "projectUniqueName": "D:\\MyProjects\\MyProjects\\e-commerceCleaningService\\OCC\\UnitTestProject1\\UnitTestProject1.csproj",
       "projectName": "UnitTestProject1",
-      "projectPath": "D:\\Centennial Collegue\\Fourth Semester\\Software Development Project I\\Project\\Final\\OCC (4)\\OCC\\UnitTestProject1\\UnitTestProject1.csproj",
+      "projectPath": "D:\\MyProjects\\MyProjects\\e-commerceCleaningService\\OCC\\UnitTestProject1\\UnitTestProject1.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Centennial Collegue\\Fourth Semester\\Software Development Project I\\Project\\Final\\OCC (4)\\OCC\\UnitTestProject1\\obj\\",
+      "outputPath": "D:\\MyProjects\\MyProjects\\e-commerceCleaningService\\OCC\\UnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -10861,8 +10861,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\Centennial Collegue\\Fourth Semester\\Software Development Project I\\Project\\Final\\OCC (4)\\OCC\\OCC\\OCC.csproj": {
-              "projectPath": "D:\\Centennial Collegue\\Fourth Semester\\Software Development Project I\\Project\\Final\\OCC (4)\\OCC\\OCC\\OCC.csproj"
+            "D:\\MyProjects\\MyProjects\\e-commerceCleaningService\\OCC\\OCC\\OCC.csproj": {
+              "projectPath": "D:\\MyProjects\\MyProjects\\e-commerceCleaningService\\OCC\\OCC\\OCC.csproj"
             }
           }
         }
