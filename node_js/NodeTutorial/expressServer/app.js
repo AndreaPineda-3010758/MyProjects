@@ -4,16 +4,38 @@ const Joi=require('joi');
 const bodyParser=require('body-parser');
 const app=express();//By default, this method is gonna return an object and it is gonna have a bunch of methods that can be used in the app.
 //Always that see use is a midleware. '/public is an alias', __dirname é o path of app.js
-app.use('/public',express.static(path.join(__dirname,'static','index.html')));
 
+app.use('/public',express.static(path.join(__dirname,'static','index.html')));
+app.set('view engine','ejs');
+app.get('/:userQuery',(req,res)=>{
+    res.render('index',{data:{userQuery:req.params.userQuery,
+                            searchResults:['book1','book2','book3'],
+                        loggedIn: false,
+                    username: 'andreaPineda'}});
+})
 //It allows us to parse URL encoded forms it parses the data for us and attaches it to the requested body the extended
 app.use(bodyParser.urlencoded({extended:false}));
+
+app.use((req,res,next)=>{
+    req.banana='banana';
+    console.log(req.url,req.method);
+    next();
+});
+
+// //Only will execute if URL match with /example
+// app.use('/example',(req,res,next)=>{
+//     console.log(req.url,req.method);
+//     next();
+// });
+
 //JSON
 //app.use(bodyParser.json());
 
 app.get('/',(req,res)=>{
     //res.send('Hello World');
-    res.sendFile(path.join(__dirname,'static','index.html'));
+    //res.sendFile(path.join(__dirname,'static','index.html'));
+    //Instead of send an static file as I sent above, I am going to send dynamic files
+    res.render('index');
 });
 
 app.post('/',(req,res)=>{

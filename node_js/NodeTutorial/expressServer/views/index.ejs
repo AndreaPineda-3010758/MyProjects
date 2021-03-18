@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <!-- use Id in order to prevent defaut submission using jQuery AJAX THAT IS HOW TO POST json DATA to the server -->
+      <h1>You Searched For: <%= data.userQuery %>  </h1>
+      <% if(data.loggedIn){ %>
+        <h2>You are logg in as : <%= data.username %></h2>
+        <% } %>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+      $(document).ready(()=>{
+        $('#form').submit((e)=>{
+          e.preventDefault();
+          $.ajax({
+            url:'/',
+            type:'post',
+            contentType:'application/json',
+            data:JSON.stringify($('#form').serializeArray()),
+            success:(response)=>{
+              console.log('successfully got response');
+              console.log(response);
+            }
+          });
+        })
+      });//Stringify takes the serialized and transform in JSON
+      //Automatically converts it to a JavaScript object in this case is an array >
+    </script>   -->
+
+      <ul>
+          <% data.searchResults.forEach(result=>{ %>
+            <li> <%=  result %> </li>
+          <% }); %>
+          <!-- <li><%= data.searchResults[0] %></li>
+          <li>dummy data</li>
+          <li>dummy data</li>
+          <li>dummy data</li> -->
+      </ul>
+    </div>
+  </body>
+</html>

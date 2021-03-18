@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "joi": "^17.4.0",
     "jquery": "^3.6.0"
   }
 }
